@@ -1,0 +1,44 @@
+html,
+body {
+  margin: 0px;
+  height: 100%;
+}
+.bg_heart {
+  position: relative;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  overflow: hidden;
+  background-image: url("https://i.pinimg.com/736x/80/d3/8d/80d38d0e7e9119156c954f7bd63e98b2.jpg");
+  background-size: 100vh 100vh;
+  background-size: cover;
+  z-index: -1;
+  animation: untoldcoding 55s infinite ease-in-out;
+}
+
+@keyframes untoldcoding {
+  0% {
+    background-image: url("https://i.pinimg.com/736x/80/d3/8d/80d38d0e7e9119156c954f7bd63e98b2.jpg");
+  }
+  25% {
+    background-image: url("https://hddesktopwallpapers.in/wp-content/uploads/2015/06/Romantic-Wallpapers-HD-A19-love.jpg");
+  }
+  50% {
+    background-image: url("https://e1.pxfuel.com/desktop-wallpaper/264/165/desktop-wallpaper-anime-1366x768-romance-anime-pc.jpg");
+  }
+  80% {
+    background-image: url("https://i.postimg.cc/w3Kj72ZJ/rose-3407234-1280.jpg");
+  }
+}
+
+.container {
+  position: absolute;
+  top: 0;
+  left: 0;
+  height: 100%;
+  width: 100%;
+  text-align: center;
+  color: white;
+  font-family: cursive;
+}
